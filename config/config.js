@@ -10,7 +10,11 @@ export default {
      routes: [
           {
                path: '/',
-               component: './Helloworld'
+               component: './Shopping'
+          },
+          {
+               path: 'shopping',
+               component: './Shopping'
           }
      ]
 };
